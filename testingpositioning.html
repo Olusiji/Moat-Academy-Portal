@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title> testing positioning</title>
+		<style>
+		* {
+		border: 1px solid black;
+		}
+		.container {
+			width: 700px;
+			height: 500px;
+		}
+		.box1 { 
+		height: 100px;
+		width: 170px;
+		position: relative;
+		left: 100px;
+		top: 100px;
+		}
+		
+		.box2 {
+		height: 100px;
+		width: 170px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		}
+		</style>
+	</head>
+	<body>
+	<div class='container'>
+	<div class='box1'></div>
+	<div class='box2'></div>
+	</div>
+	</body>
+</html>
